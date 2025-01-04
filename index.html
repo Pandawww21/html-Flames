@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Pandaws Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Pandaws Page!</h1>
+        <h2>Check the FLAMES Compatibility</h2>
+        
+        <div class="flames-form">
+            <label for="person1">Enter Name of Person 1:</label>
+            <input type="text" id="person1" placeholder="Person 1">
+            
+            <label for="person2">Enter Name of Person 2:</label>
+            <input type="text" id="person2" placeholder="Person 2">
+            
+            <button onclick="checkFlames()">Check Flames!</button>
+        </div>
+        
+        <p id="result"></p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About</h2>
+        <p>This is a simple webpage created for fun! Here you can check the flames compatibility between two names.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any questions, feel free to reach out!</p>
+        <p>Email: pandaws@example.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pandaws. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
